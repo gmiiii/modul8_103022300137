@@ -97,7 +97,7 @@ public class BankTransferConfig
     {
         if (lang == "id")
         {
-            Console.Write("Pilih metode transfer:");
+            Console.WriteLine("Pilih metode transfer:");
             Console.WriteLine($"1. {methods[0]}");
             Console.WriteLine($"2. {methods[1]}");
             Console.WriteLine($"3. {methods[2]}");
@@ -126,7 +126,7 @@ public class BankTransferConfig
         }
         else if (lang == "en")
         {
-            Console.Write("Choose transfer method:");
+            Console.WriteLine("Choose transfer method:");
             Console.WriteLine($"1. {methods[0]}");
             Console.WriteLine($"2. {methods[1]}");
             Console.WriteLine($"3. {methods[2]}");
